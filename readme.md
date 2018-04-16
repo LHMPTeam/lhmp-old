@@ -1,4 +1,10 @@
 # Lost Heaven Multiplayer
+This project has been **disclosed**. See [mafia-mp.eu](http://mafia-mp.eu)
+<p align="center">
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=4wzegNhcCFw" target="_blank"><img src="http://img.youtube.com/vi/4wzegNhcCFw/0.jpg" 
+	alt="Winter Trailer 2015" width="600" height="400" border="10" /></a>
+</p>
+
 Lost Heaven Multiplayer (LHMP) is open-source modification for PC game
  **Mafia:The city of Lost Heaven**(2K Czech), bringing multiplayer experience into the game. 
 The gameplay is similar to other modifications such as SAMP, allowing to customize game features via gamemodes written in Squirrel.
@@ -34,4 +40,5 @@ Project is mostly written in **C++**, supported by **inline Assembler** for game
 * Mafia is registered trademark of Take-Two Interactive Software Inc.
 
 ## Links
+* Webpage http://mafia-mp.eu
 * YouTube channel https://www.youtube.com/user/lhmpmode
