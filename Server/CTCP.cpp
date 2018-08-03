@@ -1,5 +1,6 @@
 // (C) LHMP Team 2013-2016; Licensed under Apache 2; See LICENSE;;
 
+#include "CTCP.h"
 #include "CCore.h"
 #include <sys/types.h>
 #include <stdio.h>
@@ -26,7 +27,7 @@ void* TCP(void *arg){
 	{
 		if (RakNet::GetTimeMS() - t1 > 5000)
 		{
-			g_CCore->GetNetworkManager()->UpdateMasterlist();
+			//g_CCore->GetNetworkManager()->UpdateMasterlist();
 			t1 = RakNet::GetTimeMS();
 		}
 		Sleep(100);
