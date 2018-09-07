@@ -35,8 +35,7 @@ set(LHMP_SERVER_SOURCES
 	)
 
 add_executable(server ${LHMP_SERVER_SOURCES})
-target_link_libraries(server raknet)
-target_link_libraries(server squirrel)
+target_link_libraries(server raknet squirrel sqlite udplib sqstdlib md5 ${CMAKE_THREAD_LIBS_INIT} ${CMAKE_DL_LIBS})
 #target_include_directories(server PRIVATE
 #	${CMAKE_CURRENT_SOURCE_DIR}/../sdks/RakNet
 #	${CMAKE_CURRENT_SOURCE_DIR}/../sdks/SQUIRREL3/include
