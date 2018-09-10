@@ -1,3 +1,6 @@
 [submodule "sdks/squirrel"]
 	path = sdks/squirrel
 	url = https://github.com/LHMPTeam/squirrel.git
+[submodule "sdks/RakNet"]
+	path = sdks/RakNet
+	url = https://github.com/LHMPTeam/RakNet.git

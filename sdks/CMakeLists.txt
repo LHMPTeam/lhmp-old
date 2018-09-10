@@ -5,7 +5,11 @@
 #add_subdirectory(INIParser)
 #add_subdirectory(janssJSON)
 add_subdirectory(md5)
+
 add_subdirectory(RakNet)
+add_library(RakNet ALIAS RakNetLibStatic)
+target_include_directories(RakNetLibStatic PUBLIC ${RAKNET_INCLUDE_DIRS})
+
 add_subdirectory(sqlite)
 add_subdirectory(squirrel)
 add_subdirectory(UDPWrapper)
