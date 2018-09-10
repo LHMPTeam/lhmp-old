@@ -1,0 +1,163 @@
+project(d3d8)
+
+set(D3D8SDK_LIB_LIST
+    lib/amstrmid.lib
+    lib/d3d8.lib
+    lib/d3dx.lib
+    lib/d3dx8.lib
+    lib/d3dx8d.lib
+    lib/d3dx8dt.lib
+    lib/d3dxd.lib
+    lib/d3dxof.lib
+    lib/ddraw.lib
+    lib/dinput.lib
+    lib/dinput8.lib
+    lib/dmoguids.lib
+    lib/dplayx.lib
+    lib/dsetup.lib
+    lib/dsound.lib
+    lib/DxErr8.lib
+    lib/dxguid.lib
+    lib/dxtrans.lib
+    lib/ksproxy.lib
+    lib/ksuser.lib
+    lib/msdmo.lib
+    lib/quartz.lib
+    lib/strmiids.lib
+)
+
+set(D3D8_INCLUDE_LIST
+    include/activecf.h
+    include/amaudio.h
+    include/amparse.h
+    include/amstream.h
+    include/amva.h
+    include/Amvideo.h
+    include/atsmedia.h
+    include/audevcod.h
+    include/austream.h
+    include/aviriff.h
+    include/basetsd.h
+    include/bdaiface.h
+    include/bdamedia.h
+    include/Bdatif.h
+    include/bdatypes.h
+    include/comlite.h
+    include/control.h
+    include/d3d.h
+    include/d3d8.h
+    include/d3d8caps.h
+    include/d3d8types.h
+    include/d3dcaps.h
+    include/d3drm.h
+    include/d3drmdef.h
+    include/d3drmobj.h
+    include/d3drmwin.h
+    include/d3dtypes.h
+    include/d3dvec.inl
+    include/d3dx.h
+    include/d3dx8.h
+    include/d3dx8core.h
+    include/d3dx8effect.h
+    include/d3dx8math.h
+    include/d3dx8math.inl
+    include/d3dx8mesh.h
+    include/d3dx8shape.h
+    include/d3dx8tex.h
+    include/d3dxcore.h
+    include/d3dxerr.h
+    include/d3dxmath.h
+    include/d3dxmath.inl
+    include/d3dxshapes.h
+    include/d3dxsprite.h
+    include/ddraw.h
+    include/ddrawex.h
+    include/ddstream.h
+    include/dinput.h
+    include/dinputd.h
+    include/dls1.h
+    include/dls2.h
+    include/dmdls.h
+    include/dmerror.h
+    include/dmksctrl.h
+    include/dmo.h
+    include/dmodshow.h
+    include/dmoimpl.h
+    include/dmoreg.h
+    include/dmort.h
+    include/dmplugin.h
+    include/dmusbuff.h
+    include/dmusicc.h
+    include/dmusicf.h
+    include/dmusici.h
+    include/dmusics.h
+    include/dpaddr.h
+    include/dplay.h
+    include/dplay8.h
+    include/dplobby.h
+    include/dplobby8.h
+    include/dsetup.h
+    include/DShow.h
+    include/dshowasf.h
+    include/DShowIDL
+    include/dsound.h
+    include/dv.h
+    include/dvdevcod.h
+    include/dvdmedia.h
+    include/dvoice.h
+    include/dvp.h
+    include/dx7todx8.h
+    include/dxerr8.h
+    include/dxfile.h
+    include/dxsdk.inc
+    include/dxtrans.h
+    include/dxva.h
+    include/edevdefs.h
+    include/errors.h
+    include/evcode.h
+    include/il21dec.h
+    include/Iwstdec.h
+    include/ks.h
+    include/ksguid.h
+    include/ksmedia.h
+    include/ksproxy.h
+    include/ksuuids.h
+    include/mediaerr.h
+    include/mediaobj.h
+    include/medparam.h
+    include/mmstream.h
+    include/mpconfig.h
+    include/mpegtype.h
+    include/Mstvca.h
+    include/Mstve.h
+    include/Msvidctl.h
+    include/Msvidctl.tlb
+    include/multimon.h
+    include/playlist.h
+    include/qedit.h
+    include/qnetwork.h
+    include/regbag.h
+    include/rmxfguid.h
+    include/rmxftmpl.h
+    include/Segment.h
+    include/strmif.h
+    include/tune.h
+    include/tuner.h
+    include/Tuner.tlb
+    include/uuids.h
+    include/vfwmsgs.h
+    include/videoacc.h
+    include/vpconfig.h
+    include/vpnotify.h
+    include/vptype.h
+    include/xprtdefs.h
+)
+
+#d3d8sdk STATIC ${D3D8_INCLUDE_LIST})
+#target_link_libraries(d3d8sdk ${D3D8SDK_LIB_LIST})
+
+#add_library(d3d8sdk STATIC IMPORTED ${D3D8SDK_LIB_LIST})
+add_library(d3d8sdk INTERFACE ${D3D8_INCLUDE_LIST})
+target_link_libraries(d3d8sdk INTERFACE ${D3D8SDK_LIB_LIST})
+#target_include_directories(d3d8sdk INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+message(LOG "Its ${CMAKE_CURRENT_SOURCE_DIR}/include")

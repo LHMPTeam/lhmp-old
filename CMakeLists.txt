@@ -12,3 +12,5 @@ add_subdirectory(sdks)
 add_subdirectory(Server)
 add_subdirectory(MasterList)
 add_subdirectory(Loader)
+
+add_subdirectory(Client)

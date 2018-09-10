@@ -13,3 +13,5 @@ target_include_directories(RakNetLibStatic PUBLIC ${RAKNET_INCLUDE_DIRS})
 add_subdirectory(sqlite)
 add_subdirectory(squirrel)
 add_subdirectory(UDPWrapper)
+
+add_subdirectory(dx8sdk)
