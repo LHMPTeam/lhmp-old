@@ -25,9 +25,9 @@ CPickup* CPickupPool::Return(unsigned int slot)
 	if (slot >= MAX_PICKUPS)
 	{
 		// generate error
-		char buff[250];
-		sprintf(buff, "[Err] SLOT overlaps MAX_PICKUPS - caller [%p] %s:%d", _ReturnAddress(),__FILE__, __LINE__);
-		g_CCore->GetLog()->AddLog(buff);
+		//char buff[250];
+		//sprintf(buff, "[Err] SLOT overlaps MAX_PICKUPS - caller [%p] %s:%d", _ReturnAddress(),__FILE__, __LINE__);
+		//g_CCore->GetLog()->AddLog(buff);
 		return NULL;
 	}
 	return pool[slot];

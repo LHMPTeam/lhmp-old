@@ -54,8 +54,6 @@ set(LHMP_CORE_FILES
     CPickupPool.h
     CPlayerSync.cpp
     CPlayerSync.h
-    CPool.cpp
-    CPool.h
     CScripts.h
     CSQFonts.cpp
     CSQFonts.h
@@ -74,5 +72,9 @@ set(LHMP_CORE_FILES
     raknetdef.h
     structs.h
 )   
-add_library(lhmp SHARED ${LHMP_CORE_FILES})
-target_link_libraries(lhmp RakNet squirrel sqlite udplib sqstdlib md5 d3d8sdk ${CMAKE_THREAD_LIBS_INIT} ${CMAKE_DL_LIBS})
+add_library(lhmp MODULE ${LHMP_CORE_FILES})
+set_target_properties(lhmp PROPERTIES COMPILE_FLAGS "-m32 -D_CRT_SECURE_NO_WARNINGS" LINK_FLAGS
+    "/SAFESEH:NO /NODEFAULTLIB:libci.lib")
+
+target_link_libraries(lhmp RakNet squirrel sqlite udplib sqstdlib md5 detours
+    ${CMAKE_THREAD_LIBS_INIT} ${CMAKE_DL_LIBS} d3dfont d3dsdk)

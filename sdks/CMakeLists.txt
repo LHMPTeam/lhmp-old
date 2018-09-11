@@ -14,4 +14,7 @@ add_subdirectory(sqlite)
 add_subdirectory(squirrel)
 add_subdirectory(UDPWrapper)
 
-add_subdirectory(dx8sdk)
+add_subdirectory(detours)
+#add_subdirectory(dx8sdk)
+add_subdirectory(CD3DFont)
+add_subdirectory(DirectX9SDK2007)
