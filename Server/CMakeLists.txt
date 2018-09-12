@@ -35,7 +35,7 @@ set(LHMP_SERVER_SOURCES
 	)
 
 add_executable(server ${LHMP_SERVER_SOURCES})
-target_link_libraries(server RakNet squirrel sqlite udplib sqstdlib md5 ${CMAKE_THREAD_LIBS_INIT} ${CMAKE_DL_LIBS})
+target_link_libraries(server RakNet squirrel_static sqlite udplib sqstdlib_static md5 ${CMAKE_THREAD_LIBS_INIT} ${CMAKE_DL_LIBS})
 set_target_properties(server PROPERTIES COMPILE_FLAGS "-D_CRT_SECURE_NO_WARNINGS" LINK_FLAGS "")
 #target_include_directories(server PRIVATE
 #	${CMAKE_CURRENT_SOURCE_DIR}/../sdks/RakNet

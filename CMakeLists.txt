@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 project(lhmp CXX)
 
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
@@ -17,7 +17,8 @@ message("Module path: ${CMAKE_MODULE_PATH}")
 
 find_package(Threads REQUIRED)
 
-
+# Disable building Squirrel dynamic libraries
+set(DISABLE_DYNAMIC TRUE)
 add_subdirectory(sdks)
 add_subdirectory(Server)
 

@@ -76,5 +76,5 @@ add_library(lhmp MODULE ${LHMP_CORE_FILES})
 set_target_properties(lhmp PROPERTIES COMPILE_FLAGS "-m32 -D_CRT_SECURE_NO_WARNINGS" LINK_FLAGS
     "/SAFESEH:NO /NODEFAULTLIB:libci.lib")
 
-target_link_libraries(lhmp RakNet squirrel sqlite udplib sqstdlib md5 detours
+target_link_libraries(lhmp RakNet sqlite udplib squirrel_static sqstdlib_static md5 detours
     ${CMAKE_THREAD_LIBS_INIT} ${CMAKE_DL_LIBS} d3dfont d3dsdk)
