@@ -1,5 +1,4 @@
-# Lost Heaven Multiplayer
-This project has been **abandoned**. See [mafia-mp.eu](http://mafia-mp.eu) for history about LH-MP.
+# Mafia: Oakwood
 
 A new multi-player called **Mafia: Oakwood** is being developed for Mafia, supporting GOG/Steam versions and offering much more stable and smoother experience. Join us at [our Discord server](https://discord.gg/eBQ4QHX) for further information. The following video is a showcase of an early sync.
 
@@ -7,6 +6,9 @@ A new multi-player called **Mafia: Oakwood** is being developed for Mafia, suppo
 	<a href="https://www.youtube.com/watch?v=Mvv-4c2E37w&feature=player_embedded" target="_blank"><img src="https://i.ytimg.com/vi/Mvv-4c2E37w/hqdefault.jpg" 
 	alt="Mafia: Oakwood sync" width="600" height="400" border="10" /></a>
 </p>
+
+# Lost Heaven Multiplayer
+This project has been **abandoned**. See [mafia-mp.eu](http://mafia-mp.eu) for history about LH-MP.
 
 Lost Heaven Multiplayer (LHMP) is open-source modification for PC game
  **Mafia:The city of Lost Heaven**(2K Czech), bringing multiplayer experience into the game. 
