@@ -4,15 +4,8 @@ This project has been **abandoned**. See [mafia-mp.eu](http://mafia-mp.eu) for h
 A new multi-player called **Mafia: Oakwood** is being developed for Mafia, supporting GOG/Steam versions and offering much more stable and smoother experience. Join us at [our Discord server](https://discord.gg/eBQ4QHX) for further information. The following video is a showcase of an early sync.
 
 <p align="center">
-	<a href="https://www.youtube.com/watch?v=Mvv-4c2E37w&feature=player_embedded" target="_blank"><img src="hhttps://i.ytimg.com/vi/Mvv-4c2E37w/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCJKLFr37zklPtwuhZ6QQ9qVx3GGQ" 
+	<a href="https://www.youtube.com/watch?v=Mvv-4c2E37w&feature=player_embedded" target="_blank"><img src="https://i.ytimg.com/vi/Mvv-4c2E37w/hqdefault.jpg" 
 	alt="Mafia: Oakwood sync" width="600" height="400" border="10" /></a>
-</p>
-
-# The remaining document of this readme now describes LHMP itself
-
-<p align="center">
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=4wzegNhcCFw" target="_blank"><img src="http://img.youtube.com/vi/4wzegNhcCFw/0.jpg" 
-	alt="Winter Trailer 2015" width="600" height="400" border="10" /></a>
 </p>
 
 Lost Heaven Multiplayer (LHMP) is open-source modification for PC game
@@ -20,6 +13,14 @@ Lost Heaven Multiplayer (LHMP) is open-source modification for PC game
 The gameplay is similar to other modifications such as SAMP, allowing to customize game features via gamemodes written in Squirrel.
 
 Project is mostly written in **C++**, supported by **inline Assembler** for game interaction. 
+
+
+<p align="center">
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=4wzegNhcCFw" target="_blank"><img src="http://img.youtube.com/vi/4wzegNhcCFw/0.jpg" 
+	alt="Winter Trailer 2015" width="600" height="400" border="10" /></a>
+</p>
+
+
 
 ## Disclaimer
 * Please note that this project has been started with little knowledge about how MP works. This reflects the quality of the code and possible mistakes that were made during development. Everyone starts somewhere and this was the place where we've learned a lot of useful information, which improved our coding knowledge and skills.
