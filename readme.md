@@ -4,12 +4,13 @@ This project has been **abandoned**. See [mafia-mp.eu](http://mafia-mp.eu) for h
 A new multi-player called **Mafia: Oakwood** is being developed for Mafia, supporting GOG/Steam versions and offering much more stable and smoother experience. Join us at [our Discord server](https://discord.gg/eBQ4QHX) for further information. The following video is a showcase of an early sync.
 
 <p align="center">
-	<a href="https://www.youtube.com/watch?v=Mvv-4c2E37w&feature=player_embedded" target="_blank"><img src="http://img.youtube.com/vi/4wzegNhcCFw/0.jpg" 
+	<a href="https://www.youtube.com/watch?v=Mvv-4c2E37w&feature=player_embedded" target="_blank"><img src="hhttps://i.ytimg.com/vi/Mvv-4c2E37w/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCJKLFr37zklPtwuhZ6QQ9qVx3GGQ" 
 	alt="Mafia: Oakwood sync" width="600" height="400" border="10" /></a>
 </p>
 
 # The remaining document of this readme now describes LHMP itself
 
+<p align="center">
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=4wzegNhcCFw" target="_blank"><img src="http://img.youtube.com/vi/4wzegNhcCFw/0.jpg" 
 	alt="Winter Trailer 2015" width="600" height="400" border="10" /></a>
 </p>
